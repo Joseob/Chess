@@ -10,6 +10,7 @@ namespace Chesslogic
     {
         Normal,
         CastleKS,
+        CastleQS,
         DoublePawn,
         EnPassant,
         PawnPromotion

@@ -17,7 +17,6 @@
             <TextBlock Text="SELECT A PIECE"
                        Style="{StaticResource TextStyle}"
                        FontSize="28"/>
-
             <UniformGrid Grid.Row="1"
                          Rows="1"
                          Columns="4"
@@ -27,7 +26,7 @@
                        Source="Assets/QueenW.png"/>
                 <Image x:Name="BishopImg"
                        MouseDown="BishopImg_MouseDown"
-                       Source="Assets/BishopW.png"/>     
+                       Source="Assets/BishopW.png"/>
                 <Image x:Name="RookImg"
                        MouseDown="RookImg_MouseDown"
                        Source="Assets/RookW.png"/>
@@ -35,8 +34,8 @@
                        MouseDown="KnightImg_MouseDown"
                        Source="Assets/KnightW.png"/>
             </UniformGrid>
-                         
+
         </Grid>
-        
+
     </Border>
 </UserControl>
